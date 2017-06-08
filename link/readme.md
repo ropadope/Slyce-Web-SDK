@@ -59,6 +59,7 @@ And you can use function **searchUrl(url, pid)** like this
 			    aTarget: '_blank',
 			    addCursorStyle: 'zoom-in',
 			    style: 'https://cdnw.slycecloud.com/link/default/style/main.css'
+            })
 ```
 
 
