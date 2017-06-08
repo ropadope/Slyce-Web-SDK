@@ -10,6 +10,7 @@
 6. **aTarget** - target attribute for product *a* elements
 7. **addCursorStyle** - custom "cursor" style for element after binding
 8. **style** - url to css file
+9. **theme** - version with custom views
 
 
 ## Auto binding
