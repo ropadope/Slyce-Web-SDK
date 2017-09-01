@@ -96,14 +96,14 @@ $('input[type="file"]').on('change', function(e) {
 ```
 
 ### similar(keyword, isUI = true)
-Call to bluesky provider
+Call to Find Similar service
 
 #### Params
 1. keyword - file url or product pid
 
 #### Result
 Native promise object
- - on resolve - return array with products list from bluesky provider
+ - on resolve - return array with products list from the Find Similar
  - on reject - Error object with text message
 
 #### Example
@@ -117,7 +117,7 @@ sdk.similar(url).then(function(data) {
 
 
 ### getSimilar(pid, url, isUI = true)
-Call to bluesky provider
+Call to Find Similar service
 
 #### Params
 1. pid - product pid
@@ -125,7 +125,7 @@ Call to bluesky provider
 
 #### Result
 Native promise object
- - on resolve - return array with products list from bluesky provider
+ - on resolve - return array with products list from Find Similar
  - on reject - Error object with text message
 
 #### Example
@@ -152,7 +152,7 @@ Call to statistic service
 
 #### Result
 Native promise object
- - on resolve - return array with products list from bluesky provider
+ - on resolve - return array with products list from Find Similar service
  - on reject - Error object with text message
 
 #### Example
