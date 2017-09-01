@@ -20,19 +20,19 @@
 ```
 
 ### Change enviroment
-For use other foundation\pounce server you need to pass env name to contructor
+For debug purposes
 ```
     var sdk = new slyceSDK('staging');
 ```
 Envs:
  1. production - default value, all production servers
- 2. staging - staging foundation server, production pounce server
- 3. dev - staging foundation server, dev pounce server
+ 2. staging - stagingenvironment
+ 3. dev - development environment
 
 
 ## methods
 ### init(clientId)
-call to pounce server uid endpoint and init providers, create websocket connection as need
+call to server uid endpoint and init providers. resolving the list of services allowed.
 
 #### Params
  1. clientId - unified id
@@ -55,7 +55,7 @@ sdk.init(id).then(function(data) {
 ```
 
 ### recognitionByUrl(url, callbackProgress, isUI = true)
-call to stocks and foundation websocket
+call to exact match as well as 3D search (sent simultaneously)
 
 #### Params
 1. url - image url
