@@ -115,6 +115,30 @@ sdk.similar(url).then(function(data) {
 });
 ```
 
+
+### getSimilar(pid, url, isUI = true)
+Call to bluesky provider
+
+#### Params
+1. pid - product pid
+1. url - file url
+
+#### Result
+Native promise object
+ - on resolve - return array with products list from bluesky provider
+ - on reject - Error object with text message
+
+#### Example
+```javascript
+sdk.getSimilar(pid, url).then(function(data) {
+   console.log(data); // [{},{}]
+}, function(data) {
+   console.log(data); // Error('Products not found')
+});
+```
+
+
+
 ### progressClose()
 Close ui view
 
