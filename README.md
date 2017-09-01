@@ -4,7 +4,7 @@
 
 ## Loading
 
-### Standart method
+### Standard method
 ```html
 <script type="text/javascript" src="../dist/slyce.ui.sdk.js"></script>
 <link rel="stylesheet" href="../dist/slyce.ui.css">
